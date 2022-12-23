@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+    ;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-top {
+    background: #322E41;
+}
+
+.top-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__item {
+    padding: 23px 14px;
+}
+
+.header__item:hover {
+    background: #FFFFFF;
+}
+
+.header__item:hover>a {
+    color: #D57300;
+}
+
+.nike-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.top__btn{
+    background: transparent;
+    font-size: 25px;
+    border: none;
+    color: #FFFFFF;
+    display: none;
+}
+
+.nav__images {
+    width: 100%;
+}
+
+.header__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.header__text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center
+}
+
+.header-text__span {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* main */
+
+.main-left {
+    width: 50%;
+    border: 15px solid white;
+    border-radius: 6px;
+    background: #FFFFFF;
+}
+
+.main-left__img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-left__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin-bottom: 10px;
+}
+
+.main-left__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9B9B;
+}
+
+.main-content {
+    display: flex;
+    margin-top: -30px;
+}
+
+.main-right {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-right__box {
+    border: 15px solid white;
+    border-radius: 6px;
+    background: #FFFFFF;
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.main-right__box:nth-child(1) {
+    margin-top: 0;
+}
+
+.main-right__box:nth-child(2) {
+    margin-top: 0;
+}
+
+.main-right__img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 12px;
+}
+
+.main-right__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #2C2A2A;
+    margin-bottom: 12px;
+}
+
+.main-right__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
+/* footer */
+.footer {
+    background: #322E41;
+    padding: 37px 0 57px;
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__input,
+.footer__area {
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #9B9B9B;
+
+}
+.icon{
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-left: 40px;
+}
+.footer__btn {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 13px;
+    color: #FFFFFF;
+    background: #544294;
+    border-radius: 6px;
+    padding: 9px 150px;
+    border: none;
+}
+
+.footer__link-block {
+    display: flex;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__list:nth-child(1) {
+    margin-right: 68px;
+}
+
+.footer__link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__item {
+    margin-bottom: 10px;
+}
+
+.footer__link:hover {
+    color: #D57300;
+}
